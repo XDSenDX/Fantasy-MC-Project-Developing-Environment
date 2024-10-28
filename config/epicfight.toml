@@ -7,9 +7,12 @@
 	disapleEntityUI = false
 	stiffComboAttacks = true
 	noMobsInBossfight = true
+	epicDrop = true
 	#Range: 0 ~ 100
 	weightPenalty = 100
 	canSwitchCombat = true
+	#Allowed Values: MINING, BATTLE
+	initialPlayerMode = "MINING"
 
 [loot]
 	#Range: -100 ~ 100

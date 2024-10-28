@@ -1,0 +1,25 @@
+
+["Normal Campfire"]
+	#Turn Campfire Buff on or off. (Default is true)
+	campfire_buff = true
+	#Value of how long should the Campfire Buff be (in ticks). (Default is 300)
+	campfire_buff_timer = 300.0
+	#The distance between the Campfire and Player while interacting (in blocks). (Default is 5)
+	player_radius_while_interacting = 5.0
+	#Turn Campfire Buff Particle on or off. (Default is true)
+	campfire_buff_particles = true
+	#Cooldown time of Campfire Buff (in ticks). (Default is 100)
+	campfire_buff_cooldown = 100.0
+
+["Soul Campfire"]
+	#Turn Soul Campfire Buff on or off. (Default is true)
+	soul_campfire_buff = true
+	#Value of how long should the Soul Campfire Buff be (in ticks).  (Default is 600)
+	soul_campfire_buff_timer = 600.0
+	#The distance between the Soul Campfire and Player while interacting (in blocks). (Default is 5)
+	"(soul_campfire) player_radius_while_interacting" = 5.0
+	#Turn Soul Campfire Buff Particle on or off. (Default is true)
+	soul_campfire_buff_particles = true
+	#Cooldown time of Soul Campfire Buff (in ticks). (Default is 100)
+	soul_campfire_buff_cooldown = 100.0
+

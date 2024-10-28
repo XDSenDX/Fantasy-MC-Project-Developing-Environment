@@ -28,7 +28,11 @@
 	#This makes villagers run from polar bears, as anyone with common sense would.
 	"Have Villagers have some common sense?" = true
 
+["golem stuff"]
+	"Allow Iron Golems to float on water?" = true
+
 ["guard stuff"]
+	"Have guards patrol the village regularly?" = true
 	#Range: -999.9000244140625 ~ 999.0
 	"Chance to drop equipment" = 100.0
 	#This makes Guards run from polar bears, as anyone with common sense would.
@@ -60,4 +64,6 @@
 	"Have guards only follow the player if they have hero of the village?" = true
 	#Range: -9999 ~ 9999
 	"How low of a reputation of a player should have to be instantly aggroed upon by guards and golems?" = -100
+	"Allow the player to right click on bells to mass order guards to follow them?" = true
+	"Allow guards to teleport if following the player" = true
 

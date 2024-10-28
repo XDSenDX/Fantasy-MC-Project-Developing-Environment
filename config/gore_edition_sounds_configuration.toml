@@ -1,0 +1,14 @@
+
+[SFX]
+	gore_death_sound = 1.0
+	gore_hurt_sound = 1.0
+	gore_50_sound = 1.0
+	gore_50_blood_sound = 1.0
+	gore_concentred_damage_sound = 1.0
+	gore_skeleton_death_pieces_sound = 1.0
+	gore_skeleton_hurt_sound = 1.0
+	gore_skeleton_50_sound = 1.0
+	gore_skeleton_concentred_damage_sound = 1.0
+	gore_infernal_machine_explode = 1.0
+	gore_metal_death_pieces = 1.0
+

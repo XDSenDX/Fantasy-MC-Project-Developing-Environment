@@ -2,17 +2,23 @@
 [ingame]
 	#Range: 1 ~ 10
 	long_press_count = 2
+	#Range: 0 ~ 30
+	max_hit_projectiles = 30
 	#Allowed Values: NONE, HURT, TARGET
 	health_bar_show_option = "HURT"
 	show_target_indicator = true
-	filter_animation = true
+	filter_animation = false
 	#Range: 0.0 ~ 1.0
 	laser_pointer_color = 0.328125
 	enable_laser_pointer = true
-	camera_auto_switch = true
+	camera_auto_switch = false
 	auto_preparation = false
 	blood_effects = true
 	no_mining_in_combat = true
+	aiming_correction = true
+	show_epicfight_attributes = true
+	use_animation_shader = false
+	first_person_model = true
 	battle_autoswitch_items = []
 	mining_autoswitch_items = []
 
