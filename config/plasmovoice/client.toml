@@ -27,38 +27,6 @@ directional_sources = false
 hrtf = false
 stereo_capture = false
 
-[voice.volumes.source_9b164fe0-ba3b-4af3-87e9-698d021e76d1]
-volume = 1.0
-[voice.volumes.source_e40ad6a6-4f59-4974-8b6d-7b9a4bc5aed7]
-volume = 1.0
-[voice.volumes.source_9ea69569-eb67-4da8-8313-af219130a739]
-volume = 1.0
-[voice.volumes.source_0b69fc5d-34a8-4a1b-a682-e8b024b6bdeb]
-volume = 1.0
-[voice.volumes.source_996aad26-0612-4911-8139-249d0598dd5d]
-volume = 1.0
-[voice.volumes.source_ef35e77b-2644-4caa-a916-753827ec787d]
-volume = 1.0
-[voice.volumes.source_4c247c68-f1d9-4ea2-8834-548286ed204f]
-volume = 1.0
-[voice.volumes.source_77b5cce3-e18e-40b5-b341-8c3f13ea4654]
-volume = 1.0
-[voice.volumes.source_1a5c7e7c-ffac-4065-a7dc-972051d86368]
-volume = 1.0
-[voice.volumes.source_9a7e7345-6500-4e52-b516-5d781a0e46ca]
-volume = 1.0
-[voice.volumes.source_7dd2f1be-4d7a-462d-b5d9-8bc033156b8f]
-volume = 1.0
-[voice.volumes.proximity]
-volume = 1.0
-[voice.volumes.source_a6db2336-8ae2-49db-baef-4069d2a87242]
-volume = 1.0
-[voice.volumes.source_10e8f56c-616d-48e8-803d-cd0b44f47c83]
-volume = 1.0
-[voice.volumes.source_0dda2b0c-45a4-4ec9-a520-78e75ad4fa17]
-volume = 1.0
-[voice.volumes.source_18212bdb-4609-4917-aaa8-58b9fff49cc9]
-volume = 1.0
 
 [advanced]
 visualize_voice_distance = true
@@ -81,5 +49,3 @@ overlay_enabled = true
 overlay_position = "TOP_LEFT"
 overlay_style = "NAME_SKIN"
 
-[overlay.source_states]
-proximity = "OFF"

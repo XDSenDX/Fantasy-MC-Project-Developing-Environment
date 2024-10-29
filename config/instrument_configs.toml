@@ -13,7 +13,7 @@ display_other_players = true
 render_background = true
 accurate_notes = true
 normalize_vintage_lyre = true
-accepted_genshin_consent = true
+accepted_genshin_consent = false
 #Allowed Values: OLD, NEW
 zither_sound_type = "NEW"
 #Allowed Values: KEYBOARD_LAYOUT, QWERTY, DON_KA, NOTE_NAME, DO_RE_MI, NONE
@@ -22,7 +22,7 @@ midi_enabled = false
 #Range: > -1
 midi_device_index = -1
 #Range: 0.0 ~ 1.0
-midi_in_sensitivity = 0.5
+midi_in_sensitivity = 0.8
 #When a note that is higher/lower than the usual octave range is played, will automatically adjust the pitch to match your playings. Can only extend up to 1 octave per side: high and low C.
 extend_octaves = true
 #Defines whether the velocity of a note press will not affect the instrument's volume

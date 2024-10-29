@@ -14,7 +14,7 @@
 	[sanity.passive]
 		#This value will be added to sanity each second regardless of any other factors
 		#Range: -100.0 ~ 100.0
-		passive = 0.0
+		passive = 0.1
 		#Sanity gain per second during rainy weather or in water
 		#Range: -100.0 ~ 100.0
 		raining = -0.2
@@ -36,7 +36,7 @@
 		monster = -0.1
 		#Players will gain this amount of sanity per second while being in the dark
 		#Range: -100.0 ~ 100.0
-		darkness = -0.15
+		darkness = -0.2
 		#Maximum light level considered to be darkness (inclusive)
 		#Range: 0 ~ 15
 		darkness_threshold = 4
@@ -48,16 +48,16 @@
 		lightness_threshold = 4
 		#Players who are stuck in blocks (such as cobweb) and have their movement restricted gain this amount of sanity per second
 		#Range: -100.0 ~ 100.0
-		block_stuck = -0.09
+		block_stuck = 0.0
 		#Players moving on a dirt path or a carpet receive this amount of sanity per second
 		#Range: -100.0 ~ 100.0
-		dirt_path = 0.09
+		dirt_path = 0.0
 		#Nearby jukebox playing a pleasant melody gives this amount of sanity per second
 		#Range: -100.0 ~ 100.0
-		jukebox_pleasant = 0.08
+		jukebox_pleasant = 0.0
 		#Nearby jukebox playing an unsettling melody gives this amount of sanity per second (this takes priority over pleasant melodies)
 		#Range: -100.0 ~ 100.0
-		jukebox_unsettling = -0.11
+		jukebox_unsettling = 0.0
 		#Define a list of blocks that affect sanity of players standing near them
 		#A block should be included as follows: block_registry_name[property1=value1,property2=value2];A;B;C
 		#Where A is how much sanity is gained per second, B is a radius in blocks,
@@ -215,7 +215,7 @@
 			#Whether to render blood tendrils overlay
 			render = false
 			#Whether to flash blood tendrils overlay upon losing sanity in a short burst
-			short_burst_flash = false
+			short_burst_flash = true
 			#Whether to render blood tendrils overlay when passively losing sanity
-			render_passive = false
+			render_passive = true
 

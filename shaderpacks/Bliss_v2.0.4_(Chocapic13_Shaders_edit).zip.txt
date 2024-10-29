@@ -1,0 +1,2 @@
+#Sun Oct 27 17:02:52 ICT 2024
+shadowMapResolution=768
