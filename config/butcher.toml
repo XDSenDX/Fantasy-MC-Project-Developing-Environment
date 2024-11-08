@@ -5,17 +5,17 @@
 	#Enable/Disable blood spreading
 	"Blood Spread" = true
 	#Drop corpses with any weapon/tool
-	"Always Drop Corpses" = false
+	"Always Drop Corpses" = true
 	#Enable/Disable End Dragon armor
 	"Dragon Armor" = true
 	#Enable/Disable the butchers house structure
 	Structures = true
 	#Enalbe/Disable guide book on first join
-	"Guide Book" = true
+	"Guide Book" = false
 	#Enable/Disable carcass weight effects
 	"Carcass Weight" = true
 	#Enable/Disable blocks weight effects
-	"Block Weight" = false
+	"Block Weight" = true
 	#Enable/Disable pillager disguise blending affect
 	"Pillager Disguise" = true
 
@@ -29,7 +29,7 @@
 
 ["Mod Compatiblities"]
 	#Enable/Disable farmers delight foods as drops
-	"Farmer's Delight" = false
+	"Farmer's Delight" = true
 	#Enable to make TFC mobs drop carcasses
 	"Terra Firma Craft Carcasses" = true
 	#Enable to use TFC drops instead of Butchery drops
@@ -81,5 +81,5 @@
 
 [Seasonal]
 	#Enable/Disable the halloween update
-	Halloween = true
+	Halloween = false
 
