@@ -4,8 +4,6 @@
 	"Vanilla Drops" = false
 	#Enable/Disable blood spreading
 	"Blood Spread" = true
-	#Drop corpses with any weapon/tool
-	"Always Drop Corpses" = true
 	#Enable/Disable End Dragon armor
 	"Dragon Armor" = true
 	#Enable/Disable the butchers house structure
@@ -18,6 +16,22 @@
 	"Block Weight" = true
 	#Enable/Disable pillager disguise blending affect
 	"Pillager Disguise" = true
+	#Collect salt water from ocean biomes using a bucket
+	"Salt Water" = true
+	#Only butchery knives cause corpses/carcasses to drop. Disable to allow any tool/weapon to cause them to drop.
+	"Specific Tools Only" = true
+	#Instantly drain carcasses/corpses
+	"Instant Drain" = false
+	#Enable/Disable sulfur ore generation
+	"Sulfur Ore" = true
+	#Enable/Disable salt generation
+	Salt = true
+	#Enable to use a vanilla bucket to collect salt water. Disable to use butchery's own bucket.
+	"Salt Water: Vanilla Bucket" = true
+	#Enable/Disable overlay hints
+	Hints = true
+	#Enable/Disable organ drops
+	Organs = true
 
 ["Boss Carcasses"]
 	#Enable/Disable End Dragon carcass
@@ -42,6 +56,7 @@
 	"Vamp Delight" = false
 	#Enable werewolves drops from corpses
 	Werewolves = true
+	#Enable/Disable Hexerei drops
 	Hexerei = true
 
 ["Carcasses/Corpses"]
@@ -78,8 +93,14 @@
 	Husk = true
 	Drowned = true
 	"Wither Skeleton" = true
+	Player = true
+	Piglin = true
+	"Zombified Piglin" = true
+	Slime = true
 
 [Seasonal]
-	#Enable/Disable the halloween update
+	#Enable/Disable the Halloween update
 	Halloween = false
+	#Enable/Disable the Christmas update
+	Christmas = true
 

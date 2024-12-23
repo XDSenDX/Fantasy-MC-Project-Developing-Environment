@@ -1,7 +1,7 @@
 {
-  "replace": false,
+  "replace": true,
   "values": [
-    "minecraft:golden_apple",
-    "minecraft:enchanted_golden_apple"
+    "meds_and_herbs:syringe_antidote",
+    "meds_and_herbs:syringe_hpa"
   ]
 }

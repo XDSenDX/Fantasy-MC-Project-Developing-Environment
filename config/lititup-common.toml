@@ -8,7 +8,7 @@
 	#Enable or disable particle ignition.
 	Ignite_Particles = true
 	#Enable or disable guide book screen.
-	Guide_Screen = true
+	Guide_Screen = false
 	#Enable or disable the spawning of the Switchgrass block in newly generated chunks.
 	Switchgrass_Spawn = true
 	#List of items that will ignite Furnace blocks. This list will only accept items with durability.
@@ -38,6 +38,15 @@
 	#Durability amount for Sparkling Flint item.
 	#Range: > 1
 	Sparkling_Flint_Durability = 5
+	#Enable or disable dynamic biome based item coloring. If false, items will have a static color.
+	Dynamic_Item_Color = true
+	#List of blocks that can ignite Furnace block when it's positioned below. Format: 'modid:blockid[:true|false]'
+	#Examples:
+	# - 'minecraft:grass:true'   (Block is considered lit)
+	# - 'minecraft:grass:false'  (Block is considered unlit)
+	# - 'minecraft:magma_block'  (No lit property, just the block)
+	#
+	Furnace_Executor_Block_List = ["minecraft:fire", "minecraft:campfire:true", "minecraft:soul_campfire:true", "minecraft:magma_block", "minecraft:lava"]
 
 ["Compatibility Handler"]
 	#Enable or disable compatibility with the Brick Furnace mod. Link: https://www.curseforge.com/minecraft/mc-mods/brick-furnace
@@ -51,4 +60,8 @@
 	#Enable or disable compatibility with the Aether mod. Link: https://www.curseforge.com/minecraft/mc-mods/aether
 	#Note: This feature is disabled by default because you can't use flint and steel in the Aether dimension.
 	Aether_mod_compatibility = false
+
+["Extra Settings"]
+	#If true, campfires placed by the player will not be lit by default.
+	Place_Campfires_Unlit = true
 

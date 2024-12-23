@@ -15,9 +15,9 @@
 	#What time of day does the horde event start? eg 18000 is midnight with default day length.
 	hordeStartTime = 18000
 	#Amount of days between horde spawns.
-	hordeSpawnDays = 10
+	hordeSpawnDays = 4
 	#Amount of days a horde event can be randomly delayed by
-	hordeSpawnVariation = 0
+	hordeSpawnVariation = 10
 	#Max cap for the number of entities that can exist from the horde at once.
 	hordeSpawnMax = 160
 	#Length of a day (use only if you have another day that changes the length of the day/night cycle) Default is 24000
@@ -47,7 +47,7 @@
 	#Can villagers be infected.
 	infectVillagers = true
 	#Chance for a villager to get infected, a value of 1 or higher makes it guaranteed
-	villagerInfectChance = 0.85
+	villagerInfectChance = 0.99
 	#Can players be infected.
 	infectPlayers = true
 	#Whether later levels of infected should slightly slow movement speed? 
@@ -67,9 +67,9 @@
 
 [Misc]
 	#Whether zombies and drowned burn in sunlight.
-	zombiesBurn = false
+	zombiesBurn = true
 	#Whether skeletons and strays burn in sunlight.
-	skeletonsBurn = false
+	skeletonsBurn = true
 	#Whether zombie villagers have vanilla curing mechanics or not
 	zombieVillagersCanBeCured = false
 	#Whether piglins and hoglins automatically convert to zombies in the overworld
